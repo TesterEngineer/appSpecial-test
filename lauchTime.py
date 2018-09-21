@@ -34,6 +34,10 @@ class app(object):
         return thisTime
 
 
+class Controller(object):
+    def run(self):
+        pass
+
 if __name__ == "__main__":
     app = app()
     #print(app.get_appLaunchTime())
